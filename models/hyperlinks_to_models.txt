@@ -1,0 +1,5 @@
+The BERT models used are too large to be directly on github; access/download them here and here:
+
+https://drive.google.com/file/d/1fpNhtraVekStw3u1UsqFCdl-NfM1Hqpo/view?usp=drive_link
+
+https://drive.google.com/file/d/1rDywA13VizDzZev-OBLdCS-87f12J8CM/view?usp=drive_link
