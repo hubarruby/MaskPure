@@ -1,12 +1,12 @@
 # *MaskPure: Improving Defense Against Text Adversaries with Stochastic Purification.*
 This is a repository for *MaskPure*, presented at The 29th International Conference on Natural Lanugage and Information Systems, in June 2024.
 
-By **Harrison Gietz** (Louisiana State University) and **Jugal Kalita** (University of Colorado Colorado Springs)
+By **Harrison Gietz** (Louisiana State University) and **Jugal Kalita** (University of Colorado Colorado Springs), and supported by the National Science Foundation under Grant No. 2050919.
 
-Abstract:
+**Abstract:**
 The improvement of language model robustness, including successful defense against adversarial attacks, remains an open problem. In computer vision settings, the stochastic noising and de-noising process provided by diffusion models has proven useful for purifying input images, thus improving model robustness against adversarial attacks. Similarly, some initial work has explored the use of random noising and de-noising to mitigate adversarial attacks in an NLP setting, but improving the quality and efficiency of these methods is necessary for them to remain competitive. We extend upon methods of input text purification that are inspired by diffusion processes, which randomly mask and refill portions of the input text before classification. Our novel method, MaskPure, exceeds or matches robustness compared to other contemporary defenses, while also requiring no adversarial classifier training and without assuming knowledge of the attack type. In addition, we show that MaskPure is provably certifiably robust. To our knowledge, MaskPure is the first stochastic-purification method with demonstrated success against both character-level and word-level attacks, indicating the generalizable and promising nature of stochastic denoising defenses. In summary: the MaskPure algorithm bridges literature on the current strongest certifiable and empirical adversarial defense methods, showing that both theoretical and practical robustness can be obtained together.
 
-Notes about the code: 
+**Other Notes about the Repository:**
 - Section 5 of the manuscript corresponds to the defense_acc_experiments folder.
 - Sectin 6 of the manuscript corresponds to the certified_robustness_experiments folder.
 - The data used for obtaining results is described in Section 4.1. In addition to the description there, note that:
